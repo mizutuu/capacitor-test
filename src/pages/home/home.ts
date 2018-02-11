@@ -11,4 +11,7 @@ export class HomePage {
 
   }
 
+  goToCameraPage() {
+    this.navCtrl.push('page-camera');
+  }
 }

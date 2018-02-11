@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Camera - Capacitor Test</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (click)="grabPhoto()">grab photo</button>
+  <hr>
+  <p>results:</p>
+  <div class="results">
+    <p>{{ resultMessage }}</p>
+    <img [src]="base64Image" >
+  </div>
+</ion-content>
